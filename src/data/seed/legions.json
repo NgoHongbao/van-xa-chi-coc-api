@@ -1,0 +1,20 @@
+[
+  {
+    "id": "l1",
+    "name": "ĐOÀN 1 – DEF MID",
+    "type": "DEF",
+    "order": 1
+  },
+  {
+    "id": "l2",
+    "name": "ĐOÀN 2 – ATK TRỤ",
+    "type": "ATK",
+    "order": 2
+  },
+  {
+    "id": "l3",
+    "name": "ĐOÀN 3 – CƠ ĐỘNG",
+    "type": "MOBILE",
+    "order": 3
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "database": "guild_manager",
+  "collections": [
+    {
+      "name": "factions",
+      "file": "factions.json",
+      "documents": 7,
+      "primaryApplicationKey": "id"
+    },
+    {
+      "name": "roles",
+      "file": "roles.json",
+      "documents": 16,
+      "primaryApplicationKey": "id"
+    },
+    {
+      "name": "members",
+      "file": "members.json",
+      "documents": 74,
+      "primaryApplicationKey": "id"
+    },
+    {
+      "name": "legions",
+      "file": "legions.json",
+      "documents": 3,
+      "primaryApplicationKey": "id"
+    },
+    {
+      "name": "parties",
+      "file": "parties.json",
+      "documents": 10,
+      "primaryApplicationKey": "id"
+    },
+    {
+      "name": "globalNotes",
+      "file": "globalNotes.json",
+      "documents": 0,
+      "primaryApplicationKey": "id"
+    }
+  ],
+  "relationships": [
+    "members.factionId -> factions.id",
+    "members.roleId -> roles.id",
+    "members.partyId -> parties.id (nullable)",
+    "parties.legionId -> legions.id"
+  ],
+  "partyCapacity": 6,
+  "notes": "Roster source has 74 members. Unused game fields are intentionally excluded."
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "huyet-ha",
+    "name": "Huyết Hà",
+    "color": "#ef4444"
+  },
+  {
+    "id": "than-tuong",
+    "name": "Thần Tương",
+    "color": "#1d4ed8"
+  },
+  {
+    "id": "toai-mong",
+    "name": "Toái Mộng",
+    "color": "#4adede"
+  },
+  {
+    "id": "thiet-y",
+    "name": "Thiết Y",
+    "color": "#facc15"
+  },
+  {
+    "id": "to-van",
+    "name": "Tố Vấn",
+    "color": "#f472b6"
+  },
+  {
+    "id": "long-ngam",
+    "name": "Long Ngâm",
+    "color": "#86efac"
+  },
+  {
+    "id": "cuu-linh",
+    "name": "Cửu Linh",
+    "color": "#a855f7"
+  }
+]

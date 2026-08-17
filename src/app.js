@@ -1,0 +1,21 @@
+import express from 'express';
+import { corsMiddleware } from './middleware/cors.js';
+import membersRoutes from './routes/members.routes.js';
+import factionsRoutes from './routes/factions.routes.js';
+import partiesRoutes from './routes/parties.routes.js';
+import rolesRoutes from './routes/roles.routes.js';
+import systemRoutes from './routes/system.routes.js';
+import { notFound } from './middleware/notFound.js';
+import { errorHandler } from './middleware/errorHandler.js';
+
+export const app=express();
+app.disable('x-powered-by');
+app.use(corsMiddleware);
+app.use(express.json({limit:'1mb'}));
+app.use('/api',systemRoutes);
+app.use('/api/members',membersRoutes);
+app.use('/api/factions',factionsRoutes);
+app.use('/api/parties',partiesRoutes);
+app.use('/api/roles',rolesRoutes);
+app.use(notFound);
+app.use(errorHandler);

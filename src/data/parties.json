@@ -1,0 +1,72 @@
+[
+  {
+    "id": "p11",
+    "legionId": "l1",
+    "name": "PT1",
+    "note": "",
+    "order": 1
+  },
+  {
+    "id": "p12",
+    "legionId": "l1",
+    "name": "PT2",
+    "note": "",
+    "order": 2
+  },
+  {
+    "id": "p13",
+    "legionId": "l1",
+    "name": "PT3",
+    "note": "",
+    "order": 3
+  },
+  {
+    "id": "p14",
+    "legionId": "l1",
+    "name": "PT4",
+    "note": "",
+    "order": 4
+  },
+  {
+    "id": "p21",
+    "legionId": "l2",
+    "name": "PT1",
+    "note": "",
+    "order": 1
+  },
+  {
+    "id": "p22",
+    "legionId": "l2",
+    "name": "PT2",
+    "note": "",
+    "order": 2
+  },
+  {
+    "id": "p23",
+    "legionId": "l2",
+    "name": "PT3",
+    "note": "",
+    "order": 3
+  },
+  {
+    "id": "p24",
+    "legionId": "l2",
+    "name": "PT4",
+    "note": "",
+    "order": 4
+  },
+  {
+    "id": "p31",
+    "legionId": "l3",
+    "name": "PT1",
+    "note": "",
+    "order": 1
+  },
+  {
+    "id": "p32",
+    "legionId": "l3",
+    "name": "PT2",
+    "note": "",
+    "order": 2
+  }
+]

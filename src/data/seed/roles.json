@@ -1,0 +1,87 @@
+[
+  {
+    "id": "r_member",
+    "name": "Bang Chúng",
+    "locked": true
+  },
+  {
+    "id": "r_lead",
+    "name": "Lead",
+    "locked": true
+  },
+  {
+    "id": "r_docnha_duong_chu",
+    "name": "ĐộcNha Đường Chủ",
+    "locked": false
+  },
+  {
+    "id": "r_tam_duong_gia",
+    "name": "Tam Đương Gia",
+    "locked": false
+  },
+  {
+    "id": "r_haclan_duong_chu",
+    "name": "HắcLân Đường Chủ",
+    "locked": false
+  },
+  {
+    "id": "r_haclan_pho_duong_chu",
+    "name": "HắcLân Phó Đường Chủ",
+    "locked": false
+  },
+  {
+    "id": "r_docnha_pho_duong_chu",
+    "name": "ĐộcNha Phó Đường Chủ",
+    "locked": false
+  },
+  {
+    "id": "r_hoc_viec",
+    "name": "Học Việc",
+    "locked": false
+  },
+  {
+    "id": "r_dai_duong_gia",
+    "name": "Đại Đương Gia",
+    "locked": false
+  },
+  {
+    "id": "r_tu_duong_gia",
+    "name": "Tứ Đương Gia",
+    "locked": false
+  },
+  {
+    "id": "r_ngu_duong_gia",
+    "name": "Ngũ Đương Gia",
+    "locked": false
+  },
+  {
+    "id": "r_tanhan_duong_chu",
+    "name": "TàNhân Đường Chủ",
+    "locked": false
+  },
+  {
+    "id": "r_quan_su",
+    "name": "Quân Sư",
+    "locked": false
+  },
+  {
+    "id": "r_nha_cong",
+    "name": "Nhà Công",
+    "locked": false
+  },
+  {
+    "id": "r_tanhan_duong_chung",
+    "name": "TàNhân Đường Chúng",
+    "locked": false
+  },
+  {
+    "id": "r_haclan_duong_chung",
+    "name": "HắcLân Đường Chúng",
+    "locked": false
+  },
+  {
+    "id": "r_nhi_duong_gia",
+    "name": "Nhị Đương Gia",
+    "locked": false
+  }
+]

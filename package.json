@@ -1,0 +1,28 @@
+{
+  "name": "guild-manager-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Node.js/Express API for Guild Manager, JSON data source, Render-ready.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "check": "node --check src/server.js && node --check src/app.js",
+    "mongo:data:validate": "node src/scripts/validateMongoData.js",
+    "mongo:data:import": "node src/scripts/importMongoData.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
