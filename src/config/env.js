@@ -6,4 +6,7 @@ export const env = {
   nodeEnv: process.env.NODE_ENV || 'development',
   mongodbUri: process.env.MONGODB_URI || '',
   mongodbDb: process.env.MONGODB_DB || 'guild_manager_app'
+  ,authUsername: process.env.AUTH_USERNAME || 'vxcc'
+  ,authPassword: process.env.AUTH_PASSWORD || 'vxccnonvl'
+  ,authSecret: process.env.AUTH_SECRET || 'change-this-secret-in-production'
 };

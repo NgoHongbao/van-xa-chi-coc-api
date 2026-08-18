@@ -9,6 +9,7 @@
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "seed": "node src/scripts/seed.js",
+    "auth:update": "node src/scripts/updateLogin.js",
     "check": "node --check src/server.js && node --check src/app.js",
     "mongo:data:validate": "node src/scripts/validateMongoData.js",
     "mongo:data:import": "node src/scripts/importMongoData.js"

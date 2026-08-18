@@ -47,7 +47,12 @@ FRONTEND_URL=http://localhost:3000
 NODE_ENV=development
 MONGODB_URI="mongodb+srv://DB_USER:DB_PASSWORD@cluster.example.mongodb.net"
 MONGODB_DB=guild_manager_app
+AUTH_USERNAME=admin
+AUTH_PASSWORD=replace-with-a-strong-password
+AUTH_SECRET=replace-with-a-long-random-secret
 ```
+
+Khi server khởi động lần đầu, backend tự tạo collection `users` và tài khoản quản trị từ `AUTH_USERNAME` / `AUTH_PASSWORD`. Mật khẩu được băm bằng `scrypt` kèm salt riêng; MongoDB không lưu mật khẩu dạng chữ thường. Những lần khởi động sau không ghi đè tài khoản đã tồn tại.
 
 `src/server.js` luôn lấy port từ `process.env.PORT` thông qua config. Render sẽ tự cung cấp `PORT`.
 

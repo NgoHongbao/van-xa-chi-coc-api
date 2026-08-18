@@ -7,11 +7,15 @@ import rolesRoutes from './routes/roles.routes.js';
 import systemRoutes from './routes/system.routes.js';
 import { notFound } from './middleware/notFound.js';
 import { errorHandler } from './middleware/errorHandler.js';
+import { login, requireAuth } from './middleware/auth.js';
 
 export const app=express();
 app.disable('x-powered-by');
 app.use(corsMiddleware);
 app.use(express.json({limit:'1mb'}));
+app.post('/api/auth/login', login);
+app.get('/api/health', (req, res) => res.json({status:'ok',message:'Guild Manager API is running'}));
+app.use('/api', requireAuth);
 app.use('/api',systemRoutes);
 app.use('/api/members',membersRoutes);
 app.use('/api/factions',factionsRoutes);
