@@ -16,5 +16,11 @@
     "name": "ĐOÀN 3 – CƠ ĐỘNG",
     "type": "MOBILE",
     "order": 3
+  },
+  {
+    "id": "l4",
+    "name": "ĐOÀN CÁNH",
+    "type": "WING",
+    "order": 4
   }
 ]

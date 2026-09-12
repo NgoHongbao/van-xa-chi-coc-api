@@ -9,8 +9,8 @@ Thư mục này chứa **data đã chuẩn hóa để import vào MongoDB** mà 
 | `factions` | `import/factions.json` | 7 |
 | `roles` | `import/roles.json` | 16 |
 | `members` | `import/members.json` | 74 |
-| `legions` | `import/legions.json` | 3 |
-| `parties` | `import/parties.json` | 10 |
+| `legions` | `import/legions.json` | 4 |
+| `parties` | `import/parties.json` | 14 |
 | `globalNotes` | `import/globalNotes.json` | 0 |
 
 Data member dùng đúng schema project hiện tại:

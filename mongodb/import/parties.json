@@ -68,5 +68,33 @@
     "name": "PT2",
     "note": "",
     "order": 2
+  },
+  {
+    "id": "p41",
+    "legionId": "l4",
+    "name": "PT1",
+    "note": "",
+    "order": 1
+  },
+  {
+    "id": "p42",
+    "legionId": "l4",
+    "name": "PT2",
+    "note": "",
+    "order": 2
+  },
+  {
+    "id": "p43",
+    "legionId": "l4",
+    "name": "PT3",
+    "note": "",
+    "order": 3
+  },
+  {
+    "id": "p44",
+    "legionId": "l4",
+    "name": "PT4",
+    "note": "",
+    "order": 4
   }
 ]
