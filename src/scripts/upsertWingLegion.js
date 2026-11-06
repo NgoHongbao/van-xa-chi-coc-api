@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import { closeMongo, connectMongo } from '../database/mongodb.js';
 
-const legion = { id: 'l4', name: 'ĐOÀN CÁNH', type: 'WING', order: 4 };
+const legion = { id: 'l4', name: 'ĐOÀN CÁNH', type: 'WING', order: 3 };
 const parties = Array.from({ length: 4 }, (_, index) => ({
   id: `p4${index + 1}`,
   legionId: legion.id,

@@ -33,5 +33,10 @@
     "id": "cuu-linh",
     "name": "Cửu Linh",
     "color": "#a855f7"
+  },
+  {
+    "id": "huyen-co",
+    "name": "Huyền Cơ",
+    "color": "#bef264"
   }
 ]
