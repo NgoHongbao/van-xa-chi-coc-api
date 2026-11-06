@@ -7,19 +7,19 @@
   },
   {
     "id": "l2",
-    "name": "ĐOÀN 2 – ATK TRỤ",
+    "name": "ĐOÀN 2 – Cánh Phải",
     "type": "ATK",
     "order": 2
   },
   {
     "id": "l4",
-    "name": "ĐOÀN CÁNH",
+    "name": "ĐOÀN 3 – Cánh Trái",
     "type": "WING",
     "order": 3
   },
   {
     "id": "l3",
-    "name": "ĐOÀN 3 – CƠ ĐỘNG",
+    "name": "ĐOÀN CƠ ĐỘNG",
     "type": "MOBILE",
     "order": 4
   }
